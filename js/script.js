@@ -22,7 +22,7 @@ $(function(){
     // The same-origin security policy doesn't apply to electron, so we can
     // send ajax request to other sites. Let's fetch Tutorialzine's rss feed:
 
-    $.get('http://feeds.feedburner.com/Tutorialzine', function(response){
+    $.get('http://feeds.feedburner.com/EbscoPostBlog', function(response){
 
         var rss = $(response);
 
